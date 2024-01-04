@@ -1,0 +1,38 @@
+body,html {
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@keyframes spinner {
+  from {transform: rotate(0deg); }
+  to {transform: rotate(360deg);}
+}
+
+#loading .spinner {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  margin-top: -18px;
+  margin-left: -18px;
+  border-radius: 50%;
+  border: 8px solid transparent;
+  border-top-color: #f19022;
+  border-bottom-color: #f19022;
+  animation: spinner .8s ease infinite;
+}
+
+#loading .error {
+  position: absolute;
+  color: red;
+  top: 50%;
+  left: 50%;
+}

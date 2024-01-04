@@ -1,0 +1,63 @@
+.gjs-one-bg {
+    background-color: #838181!important;
+}
+.gjs-two-color {
+    color: rgb(255, 255, 255)!important;
+}
+.gjs-editor {
+    font-family: 'Nanum Gothic', sans-serif!important;
+}
+.svg-width {
+    width: 54px
+}
+.gjs-pn-views-container {
+    padding: 42px 0 0!important;
+    width: 220px!important;
+    height: auto!important;
+    min-height: 950px!important;
+    border-radius: 20px;
+    left: 80%;
+    top: 10%;
+}
+.gjs-mdl-container {
+    font-family: 'Nanum Gothic', sans-serif!important;
+}
+.gjs-cv-canvas {
+    width: 100%!important;
+}
+.gjs-pn-options {
+    right: unset!important;
+    left: 20px;
+}
+.gjs-pn-devices-c {
+    right: 0!important;
+}
+.gjs-pn-page-list {
+    left: 40%!important;
+}
+.gjs-pn-generate-text {
+    left: 60%!important;
+}
+.gjs-field {
+    border-radius: 10px!important;
+}
+.gjs-sm-sector-title {
+    border-radius: 10px!important;
+}
+.gjs-field-color-picker {
+    border-radius: 0 10px 10px 0!important;
+}
+.gjs-checker-bg, .gjs-field-colorp-c, .checker-bg, .gjs-sm-layer-preview {
+    background-image: unset!important;
+}
+.gjs-pn-buttons {
+    position: relative!important;
+}
+.gjs-mdl-dialog {
+    max-width: none!important;
+    width: auto!important;
+}
+.gjs-am-assets-cont {
+    max-width: 650px!important;
+    height: 100%!important;
+}

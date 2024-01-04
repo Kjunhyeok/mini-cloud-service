@@ -1,0 +1,51 @@
+{
+  "name": "react-web-builder",
+  "version": "0.1.0",
+  "proxy": "http://localhost:8080",
+  "homepage": "/web-builder",
+  "private": true,
+  "dependencies": {
+    "@inlet/react-pixi": "^6.8.0",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.4",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "grapesjs": "^0.20.4",
+    "moment": "^2.29.4",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "5.0.1",
+    "serve": "^14.1.2",
+    "typescript": "^4.9.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "BUILD_PATH=./build react-scripts build && mkdir build/web-builder && mv build/static/ build/web-builder/static/",
+    "prod": "npx serve -s build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
